@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  mysql:
+    image: mysql
+    container_name: test-mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: 11270922
+    volumes:
+      - /storage/docker/mysql-datadir:/var/lib/mysql
