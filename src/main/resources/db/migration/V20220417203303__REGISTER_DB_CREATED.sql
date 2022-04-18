@@ -1,6 +1,6 @@
 
 CREATE TABLE IF NOT EXISTS mf_dev_register.db_client (
-    id INT NOT NULL AUTO_INCREMENT,
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(45) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
     mail VARCHAR(100) NOT NULL,
