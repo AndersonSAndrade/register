@@ -4,7 +4,6 @@ import br.com.itcode.myfood.register.common.mapper.service.ClientRegisterMapperS
 import br.com.itcode.myfood.register.domain.dto.ClientRegisterDTO;
 import br.com.itcode.myfood.register.domain.repository.ClientRegisterRepository;
 import br.com.itcode.myfood.register.service.factory.ClientService;
-import br.com.itcode.myfood.register.validation.errors.ApiRuntimeError;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -13,8 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 @Slf4j
