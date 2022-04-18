@@ -7,5 +7,6 @@ public interface ClientRegisterMapperFactory {
 
     ClientRegisterDTO entityToDTO(ClientRegisterModel entity);
     ClientRegisterModel dtoToEntity(ClientRegisterDTO dto);
+    ClientRegisterDTO savedDtoToEntity(ClientRegisterDTO dto);
 
 }

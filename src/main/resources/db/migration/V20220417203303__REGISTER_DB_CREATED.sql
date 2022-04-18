@@ -1,0 +1,11 @@
+
+CREATE TABLE IF NOT EXISTS mf_dev_register.db_client (
+    id INT NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(45) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    mail VARCHAR(100) NOT NULL,
+    phone VARCHAR(12) NOT NULL,
+    cpf VARCHAR(14) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NULL
+)ENGINE = InnoDB;
